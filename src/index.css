@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Todo Card Style */
+.card {
+    border: 1px solid blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* API Card Style */
+.user-card {
+    border: 1px solid black;
+    margin: 5px 0;
+    padding: 5px;
 }
